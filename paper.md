@@ -1,6 +1,6 @@
 # 自适应检索
 * ACL2025 [SEAKR: Self-aware Knowledge Retrieval  for Adaptive Retrieval Augmented Generation](https://aclanthology.org/2025.acl-long.1312.pdf)
-  在模型生成过程中，最后一位EOS符号的熵值可以代表模型对于生成结果不确定性的判断，因此[seakr](https://github.com/THU-KEG/SeaKR)提出了一种利用cot方法判断生成结果是否可信，进而决定是否检索的方法，该方法通过利用cot逐步检索生成结果，达到提升模型效果的作用
+  在模型生成过程中，最后一位EOS符号的熵值可以代表模型对于生成结果不确定性的判断，因此[seakr](https://github.com/THU-KEG/SeaKR)提出了一种利用cot方法判断生成结果是否可信，进而决定是否检索的方法，该方法通过利用cot逐步检索生成结果，达到提升模型效果的作用         [seakr](pic/seakr.jpg)
 
 # 查询增强
 * ACL2025  [UniRAG: Unified Query Understanding Method for  Retrieval Augmented Generation](https://aclanthology.org/2025.acl-long.1456/)
